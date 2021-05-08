@@ -1,0 +1,89 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+section {
+    min-width: 100%;
+    max-height: 600px;
+}
+header {
+    min-width: 100vh;
+    height: 50px;
+    padding: 0;
+    margin: 0 0 0 0;
+    display:flex;
+    justify-content: space-between;
+}
+.iconhead {
+   background: white;
+   width:30em;
+   height:100%;
+}
+.menucontainer {
+    width:40em;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.tradebutton {
+    width:30em;
+    height:50px;
+    text-align:center;
+}
+.tradebut1 {
+    width:50%;
+    height: 80%;
+    background-color: cyan;
+}
+.menu1 {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.containersection1 {
+    background: darkblue;
+    margin: 0 auto;
+    max-width:1400px;
+    height:550px;
+    display:flex;  
+}
+.containertext1 {
+    width:50%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10%;
+}
+h1, p.lorem1 {
+    color: white;
+}
+h1 {
+    font-weight:bolder;
+    font-size: 50px;
+}
+p.lorem1 {
+    font-weight: lighter;
+    font-size: 20px;
+}
+.containercircle1 {
+    width:50%;
+    height: 100%;
+}
+.buttonsec1 {
+    width:120px;
+    height: 50px;
+    color:white;
+    background-color:#0CAA99;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+}
